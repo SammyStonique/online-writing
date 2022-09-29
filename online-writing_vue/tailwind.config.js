@@ -5,11 +5,14 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+  
     extend: {
       fontFamily:{
-        'sans': ["Montserrat"]
+        'sans': ["Montserrat"],
+        'serif':["PT Serif", "Times New Roman"]
       },
     },
+    
   },
   plugins: [],
 }

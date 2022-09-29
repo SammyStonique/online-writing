@@ -1,6 +1,8 @@
 <template>
   <div>
-    <nav class="sticky pl-24 h-14 w-full">
+    <nav
+      class="pl-24 h-14 w-full border border-x-0 border-t-0 border-sky-200 shadow-xl shadow-slate-300"
+    >
       <div class="flex h-14 pt-2 text-xl">
         <div class="basis-5/6 flex">
           <router-link to="/" class="mr-10"><h3 class="my-links">Home</h3></router-link>

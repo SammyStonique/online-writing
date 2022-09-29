@@ -37,14 +37,14 @@
           information about essay writing process and online ordering peculiarities.
         </p>
         <ul class="mt-4 section-list">
-          <li class="font-serif text-xl mb-4">
+          <li class="relative font-serif text-xl mb-4 pl-10">
             We are professional, educated, experienced, and dedicated to your success!
           </li>
-          <li class="font-serif text-xl mb-4">
+          <li class="relative font-serif text-xl mb-4 pl-10">
             What we definitely know is that every student who comes to us needs help and
             needs it urgently.
           </li>
-          <li class="font-serif text-xl mb-4">
+          <li class="relative font-serif text-xl mb-4 pl-10">
             We fulfill our promises and guarantee that every custom essay, critical paper,
             or admission statement is written by an experienced writer.
           </li>
@@ -276,13 +276,18 @@ export default {
   left: 50%;
   color: #67ccf2;
 }
-li::before {
-  content: "\e048";
-  font-family: "material-design";
-  font-size: 18px;
-}
 .section-list {
   color: #b35032;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓ ";
+  padding-right: 30px;
+  position: absolute;
+  left: 0;
 }
 .why-us:hover {
   background-color: #b35032;
