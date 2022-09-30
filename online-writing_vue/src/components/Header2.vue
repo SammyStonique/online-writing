@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="pl-24 h-14 w-full border border-x-0 border-t-0 border-sky-200 shadow-xl shadow-slate-300"
+      class="bg-blue-circle pl-24 h-14 w-full border border-x-0 border-t-0 border-blue-circle shadow-xl shadow-slate-300"
     >
       <div class="flex h-14 pt-2 text-xl">
         <div class="basis-5/6 flex">

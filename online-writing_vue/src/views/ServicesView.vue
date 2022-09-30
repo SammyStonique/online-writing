@@ -8,7 +8,7 @@
           is to help our customers reach their academic goals through the individualized
           attention you and your essay deserve.
         </p>
-        <div class="services-overview flex pl-8 mb-8">
+        <div class="text-brown flex pl-8 mb-8">
           <div class="basis-1/2">
             <p class="mb-4">
               <i class="fa fa-check mr-4 text-xs opacity-50" aria-hidden="true"></i> Term
@@ -38,7 +38,7 @@
         <img src="@/assets/img/services-01.jpg" alt="" />
       </div>
     </div>
-    <div class="w-full bg-sky-300 pt-12 pb-24 mb-12 pl-24 pr-20">
+    <div class="w-full bg-blue pt-12 pb-24 mb-12 pl-24 pr-20">
       <h3 class="text-5xl font-serif mb-8">Additional Services</h3>
       <div class="flex">
         <div class="basis-1/2">
@@ -106,7 +106,7 @@
       <div class="flex mb-10">
         <div class="basis-1/3 flex">
           <div class="basis-1/3 mr-4">
-            <div class="relative rounded-full h-28 w-28 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-28 w-28 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-8 left-8 fa fa-newspaper-o text-white text-5xl"
                 aria-hidden="true"
@@ -122,7 +122,7 @@
         </div>
         <div class="basis-1/3 flex">
           <div class="basis-1/3 mr-4">
-            <div class="relative rounded-full h-28 w-28 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-28 w-28 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-8 left-10 fa fa-clipboard text-white text-5xl"
                 aria-hidden="true"
@@ -138,7 +138,7 @@
         </div>
         <div class="basis-1/3 flex">
           <div class="basis-1/3 mr-4">
-            <div class="relative rounded-full h-28 w-28 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-28 w-28 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-8 left-10 fa fa-microphone text-white text-5xl"
                 aria-hidden="true"
@@ -156,7 +156,7 @@
       <div class="flex">
         <div class="basis-1/3 flex">
           <div class="basis-1/3 mr-4">
-            <div class="relative rounded-full h-28 w-28 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-28 w-28 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-8 left-10 fa fa-bookmark text-white text-5xl"
                 aria-hidden="true"
@@ -172,7 +172,7 @@
         </div>
         <div class="basis-1/3 flex">
           <div class="basis-1/3 mr-4">
-            <div class="relative rounded-full h-28 w-28 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-28 w-28 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-8 left-10 fa fa-check-square-o text-white text-5xl"
                 aria-hidden="true"
@@ -188,7 +188,7 @@
         </div>
         <div class="basis-1/3 flex">
           <div class="basis-1/3 mr-4">
-            <div class="relative rounded-full h-28 w-28 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-28 w-28 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-8 left-8 fa fa-heart-o text-white text-5xl"
                 aria-hidden="true"
@@ -204,7 +204,7 @@
         </div>
       </div>
     </div>
-    <div class="other-services w-full pl-24 pr-20 pt-12 text-white pb-24">
+    <div class="w-full pl-24 pr-20 pt-12 text-white pb-24 bg-dark-blue">
       <h3 class="text-5xl font-serif mb-8">Other services</h3>
       <div class="flex">
         <div class="basis-1/3">
@@ -292,11 +292,4 @@
 export default {};
 </script>
 
-<style scoped>
-.services-overview {
-  color: #b35032;
-}
-.other-services {
-  background-color: #4494b3;
-}
-</style>
+<style scoped></style>

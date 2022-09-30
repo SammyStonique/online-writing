@@ -19,12 +19,12 @@
         </p>
       </div>
     </div>
-    <div class="w-full bg-sky-300 pt-12 pb-20 mb-12 pl-24 pr-20">
+    <div class="w-full bg-blue pt-12 pb-20 mb-12 pl-24 pr-20">
       <p class="text-5xl font-serif mb-12">3 steps away from a succesful essay</p>
       <div class="flex text-center">
         <div class="basis-1/3">
           <div class="m-auto w-1/2">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-10 left-11 fa fa-newspaper-o text-white text-6xl"
                 aria-hidden="true"
@@ -35,7 +35,7 @@
         </div>
         <div class="basis-1/3">
           <div class="m-auto w-1/2">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-10 left-11 fa fa-pencil-square-o text-white text-6xl"
                 aria-hidden="true"
@@ -46,7 +46,7 @@
         </div>
         <div class="basis-1/3">
           <div class="m-auto w-1/2">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-8 ml-6">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-8 ml-6">
               <i
                 class="absolute top-10 left-11 fa fa-clock-o text-white text-6xl"
                 aria-hidden="true"
@@ -86,7 +86,7 @@
         </div>
       </div>
     </div>
-    <div class="working-principles w-full pl-24 pt-12 text-white pb-20 mb-8 pr-20">
+    <div class="bg-dark-blue w-full pl-24 pt-12 text-white pb-20 mb-8 pr-20">
       <h3 class="text-5xl font-serif mb-10">Our working principles</h3>
       <div class="flex">
         <div class="basis-1/3 pr-10">
@@ -96,7 +96,7 @@
             you have. We value your opinion and strive to incorporate it in our services..
           </p>
           <button
-            class="working-principles-btn rounded-full w-44 py-2 px-2 bg-white text-sky-500 font-bold"
+            class="rounded-full w-44 py-2 px-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
           >
             Learn More
           </button>
@@ -108,7 +108,7 @@
             overwhelmed with the number of assignments, we don't take a...
           </p>
           <button
-            class="working-principles-btn rounded-full w-44 py-2 px-2 bg-white text-sky-500 font-bold"
+            class="rounded-full w-44 py-2 px-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
           >
             Learn More
           </button>
@@ -120,7 +120,7 @@
             PayPal, which is one of the most secure payment systems in the world...
           </p>
           <button
-            class="working-principles-btn rounded-full w-44 py-2 px-2 bg-white text-sky-500 font-bold"
+            class="rounded-full w-44 py-2 px-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
           >
             Learn More
           </button>
@@ -140,7 +140,7 @@
           </p>
         </div>
         <div class="basis-1/4 mr-8">
-          <img class="mb-4" src="@/assets/img/about-06.jpg" alt="" />
+          <img class="mb-4" src="@/assets/img/leslie.jpg" alt="" />
 
           <h2 class="font-bold mb-4 text-lg">Mary</h2>
           <p class="mb-2 text-sky-500">Course Work Writer</p>
@@ -159,7 +159,7 @@
           </p>
         </div>
         <div class="basis-1/4">
-          <img class="mb-4" src="@/assets/img/about-08.jpg" alt="" />
+          <img class="mb-4" src="@/assets/img/gracy-review.jpg" alt="" />
           <h2 class="font-bold mb-4 text-lg">Natalie Barnes</h2>
           <p class="mb-2 text-sky-500">Administrator</p>
           <p>
@@ -176,12 +176,4 @@
 export default {};
 </script>
 
-<style scoped>
-.working-principles {
-  background-color: #4494b3;
-}
-.working-principles-btn:hover {
-  background-color: #b35032;
-  color: white;
-}
-</style>
+<style scoped></style>

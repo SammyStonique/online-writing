@@ -25,7 +25,7 @@
               <p class="mb-2 font-serif text-lg">Custom essay</p>
               <p class="mb-8 font-serif text-lg">Research paper</p>
               <button
-                class="prices-btn rounded-full bg-white text-sky-500 w-40 py-2 font-bold"
+                class="rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
               >
                 Order now
               </button>
@@ -47,7 +47,7 @@
               <p class="mb-2 font-serif text-lg">Lab report</p>
               <p class="mb-8 font-serif text-lg">Presentation</p>
               <button
-                class="prices-btn rounded-full bg-white text-sky-500 w-40 py-2 font-bold"
+                class="rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
               >
                 Order now
               </button>
@@ -69,7 +69,7 @@
               <p class="mb-2 font-serif text-lg">Coursework</p>
               <p class="mb-8 font-serif text-lg">Admission essay</p>
               <button
-                class="prices-btn rounded-full bg-white text-sky-500 w-40 py-2 font-bold"
+                class="prices-btn rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
               >
                 Order now
               </button>
@@ -91,7 +91,7 @@
               <p class="mb-2 font-serif text-lg">Scholarship essay</p>
               <p class="mb-8 font-serif text-lg">Proofreading</p>
               <button
-                class="prices-btn rounded-full bg-white text-sky-500 w-40 py-2 font-bold"
+                class="rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
               >
                 Order now
               </button>
@@ -127,7 +127,7 @@
         </div>
       </div>
     </div>
-    <div class="price-calculator w-full pl-24 pr-20 pt-12 pb-20 text-white">
+    <div class="w-full pl-24 pr-20 pt-12 pb-20 text-white bg-dark-blue">
       <h3 class="text-5xl font-serif mb-8">What we offer</h3>
       <div class="flex mb-6">
         <div class="basis-1/2 pr-8">
@@ -158,7 +158,7 @@
       </div>
       <div class="m-auto w-1/2 text-center">
         <button
-          class="prices-btn rounded-full bg-white text-sky-500 text-lg font-bold w-60 py-2 px-2"
+          class="rounded-full bg-white text-light-blue text-lg font-bold w-60 py-2 px-2 hover:bg-brown hover:text-white"
         >
           Calculate order's price
         </button>
@@ -184,12 +184,5 @@ ul li:before {
   padding-right: 30px;
   position: absolute;
   left: 0;
-}
-.prices-btn:hover {
-  background-color: #b35032;
-  color: white;
-}
-.price-calculator {
-  background-color: #4494b3;
 }
 </style>

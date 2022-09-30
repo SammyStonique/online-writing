@@ -22,47 +22,55 @@
     <div class="flex mb-10">
       <div class="basis-1/4">
         <h2 class="font-bold mb-6 text-lg">Menu</h2>
-        <p class="footer-links mb-2"><router-link to="/">Home</router-link></p>
-        <p class="footer-links mb-2"><router-link to="/about">About Us</router-link></p>
         <p class="footer-links mb-2">
-          <router-link to="/services">Services</router-link>
-        </p>
-        <p class="footer-links mb-2"><router-link to="/prices">Prices</router-link></p>
-        <p class="footer-links mb-2">
-          <router-link to="/guarantees">Guarantees</router-link>
+          <router-link to="/" @click="scrollToTop">Home</router-link>
         </p>
         <p class="footer-links mb-2">
-          <router-link to="/contacts">Contact Us</router-link>
+          <router-link to="/about" @click="scrollToTop">About Us</router-link>
+        </p>
+        <p class="footer-links mb-2">
+          <router-link to="/services" @click="scrollToTop">Services</router-link>
+        </p>
+        <p class="footer-links mb-2">
+          <router-link to="/prices" @click="scrollToTop">Prices</router-link>
+        </p>
+        <p class="footer-links mb-2">
+          <router-link to="/guarantees" @click="scrollToTop">Guarantees</router-link>
+        </p>
+        <p class="footer-links mb-2">
+          <router-link to="/contacts" @click="scrollToTop">Contact Us</router-link>
         </p>
       </div>
       <div class="basis-1/4">
         <h2 class="font-bold mb-6 text-lg">Free Resources</h2>
-        <p class="footer-links mb-2"><router-link to="">Free essays</router-link></p>
-        <p class="footer-links mb-2"><router-link to="">Essay tips</router-link></p>
+        <p class="footer-links mb-2"><router-link to="/ab">Free essays</router-link></p>
+        <p class="footer-links mb-2"><router-link to="/ab">Essay tips</router-link></p>
         <p class="footer-links mb-2">
-          <router-link to="">Essay types</router-link>
+          <router-link to="/ab">Essay types</router-link>
         </p>
         <p class="footer-links mb-2">
-          <router-link to="">Plagiarism checker</router-link>
+          <router-link to="/ab">Plagiarism checker</router-link>
         </p>
       </div>
       <div class="basis-1/4">
         <h2 class="font-bold mb-6 text-lg">Dissertation help</h2>
         <p class="footer-links mb-2">
-          <router-link to="">Free consultation</router-link>
-        </p>
-        <p class="footer-links mb-2"><router-link to="">Essay examples</router-link></p>
-        <p class="footer-links mb-2">
-          <router-link to="">Buy essay</router-link>
+          <router-link to="/ab">Free consultation</router-link>
         </p>
         <p class="footer-links mb-2">
-          <router-link to="">Dissertation assistance</router-link>
+          <router-link to="/ab">Essay examples</router-link>
         </p>
         <p class="footer-links mb-2">
-          <router-link to="">Free dissertations</router-link>
+          <router-link to="/ab">Buy essay</router-link>
         </p>
         <p class="footer-links mb-2">
-          <router-link to="">Coursework help</router-link>
+          <router-link to="/ab">Dissertation assistance</router-link>
+        </p>
+        <p class="footer-links mb-2">
+          <router-link to="/ab">Free dissertations</router-link>
+        </p>
+        <p class="footer-links mb-2">
+          <router-link to="/ab">Coursework help</router-link>
         </p>
       </div>
       <div class="basis-1/4">
@@ -76,7 +84,7 @@
     </div>
     <p>
       Essay Writing ©2022. All rights reserved. Terms of use |<router-link
-        to=""
+        to="/ab"
         class="footer-links"
       >
         Privacy Policy</router-link
@@ -86,7 +94,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style>

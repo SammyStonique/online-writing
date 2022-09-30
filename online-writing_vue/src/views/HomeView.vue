@@ -2,33 +2,41 @@
   <div class="home">
     <div class="main-pic relative mb-12">
       <img class="h-full object-cover" src="@/assets/img/index-01.jpg" alt="Main Pic" />
-      <div class="absolute flex top-20 pl-24 mt-12">
+      <div class="absolute flex top-16 pl-24 mt-12">
         <div class="basis-2/3">
-          <p class="text-6xl font-serif mb-8">
+          <p class="text-6xl font-serif mb-6">
             Providing high quality help on your way to academic excellence!
           </p>
-          <p class="text-3xl text-gray-500 mb-12">
+          <p class="text-3xl text-gray-500 mb-10">
             Crafting your custom essay by a competent writer.
           </p>
-          <div class="flex mb-12">
+          <div class="flex mb-10">
             <button
-              class="order-now rounded-full w-48 text-white px-4 py-3 font-bold text-lg mr-8"
+              class="rounded-full w-48 text-white px-4 py-3 font-bold text-lg mr-8 bg-light-blue hover:bg-brown"
             >
               Order now
             </button>
             <button
-              class="read-more rounded-full w-48 text-white px-4 py-3 font-bold text-lg"
+              class="rounded-full w-48 text-white px-4 py-3 font-bold text-lg bg-blue-circle hover:bg-brown"
             >
               Read More
             </button>
           </div>
-          <div class="w-full text-center">
-            <i class="fa fa-chevron-down scroll-link text-2xl" aria-hidden="true"></i>
+          <div class="w-3/4 text-right">
+            <a href="#welcome-tab" role="tab" @click="scrollToWelcome">
+              <i
+                class="fa fa-chevron-down scroll-link text-2xl hover:text-brown"
+                aria-hidden="true"
+              ></i>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex mb-12">
+    <div
+      class="flex mb-12 transition ease-in-out delay-150 duration-600"
+      id="welcome-tab"
+    >
       <div class="basis-1/2 pl-24">
         <p class="text-6xl font-serif opacity-75 mb-10">Welcome to our site!</p>
         <p class="text-xl">
@@ -64,28 +72,30 @@
         </div>
       </div>
     </div>
-    <div class="pl-24 w-full bg-sky-300 pt-16 pb-20 mb-12">
+    <div class="pl-24 w-full bg-blue pt-16 pb-20 mb-12">
       <h3 class="text-5xl font-serif mb-8">Why Choose Us?</h3>
       <div class="grid grid-cols-4 gap-4">
         <div class="text-center">
           <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-12 ml-8">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
               <i
-                class="absolute top-10 left-11 fa fa-users text-white text-6xl"
+                class="absolute top-10 left-10 fa fa-users text-white text-6xl"
                 aria-hidden="true"
               ></i>
             </div>
             <p class="mb-8 font-serif text-center text-xl">
               You'll get help from a writer with the qualification you're working towards.
             </p>
-            <button class="why-us rounded-full w-40 py-2 bg-white text-sky-500 font-bold">
+            <button
+              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
+            >
               Learn More
             </button>
           </div>
         </div>
         <div class="text-center">
           <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-12 ml-8">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
               <i
                 class="absolute top-10 left-11 fa fa-globe text-white text-6xl"
                 aria-hidden="true"
@@ -94,14 +104,16 @@
             <p class="mb-8 font-serif text-center text-xl">
               You'll be dealing with a real company offering a legitimate service.
             </p>
-            <button class="why-us rounded-full w-40 py-2 bg-white text-sky-500 font-bold">
+            <button
+              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
+            >
               Learn More
             </button>
           </div>
         </div>
         <div class="text-center">
           <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-12 ml-8">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
               <i
                 class="absolute top-10 left-11 fa fa-graduation-cap text-white text-6xl"
                 aria-hidden="true"
@@ -110,14 +122,16 @@
             <p class="mb-8 font-serif text-center text-xl">
               Get help with your essay, dissertation, assignments or coursework today.
             </p>
-            <button class="why-us rounded-full w-40 py-2 bg-white text-sky-500 font-bold">
+            <button
+              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
+            >
               Learn More
             </button>
           </div>
         </div>
         <div class="text-center">
           <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-sky-400 mb-12 ml-8">
+            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
               <i
                 class="absolute top-10 left-11 fa fa-phone text-white text-6xl"
                 aria-hidden="true"
@@ -126,7 +140,9 @@
             <p class="mb-8 font-serif text-center text-xl">
               Our ethos is to provide the best possible customer service.
             </p>
-            <button class="why-us rounded-full w-40 py-2 bg-white text-sky-500 font-bold">
+            <button
+              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
+            >
               Learn More
             </button>
           </div>
@@ -175,24 +191,62 @@
         </div>
       </div>
     </div>
-    <div class="pl-24 w-full bg-sky-300 pt-16 pb-20">
+    <div class="pl-24 w-full bg-blue pt-16 pb-20">
       <h3 class="text-5xl font-serif mb-12">Testimonials</h3>
-      <div class="m-auto w-3/4 bg-white py-8 px-20">
-        <p class="italic font-serif text-2xl mb-16">
-          "Tried so many sites and always ended up with different grades for my
-          assignments. Sometimes I received fail for a work from the site, which helped me
-          to get an A before. Essay Writing guys really made a difference. I have improved
-          my results since I started to work with them."
-        </p>
-        <div class="flex">
-          <div class="rounded-full mr-4">
-            <img src="@/assets/img/index-06.jpg" alt="" />
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="m-auto w-3/4 bg-white py-8 px-20">
+              <p class="italic font-serif text-2xl mb-16">
+                "Tried so many sites and always ended up with different grades for my
+                assignments. Sometimes I received fail for a work from the site, which
+                helped me to get an A before. Essay Writing guys really made a difference.
+                I have improved my results since I started to work with them."
+              </p>
+              <div class="flex">
+                <div class="rounded-full mr-4">
+                  <img src="@/assets/img/index-06.jpg" alt="" />
+                </div>
+                <p class="text-xl opacity-75">— Laura Bailey</p>
+              </div>
+            </div>
           </div>
-          <p class="text-xl opacity-75">— Laura Bailey</p>
+          <div class="swiper-slide">
+            <div class="m-auto w-3/4 bg-white py-8 px-20">
+              <p class="italic font-serif text-2xl mb-16">
+                “There are so many websites out there and it's so confusing to choose one.
+                I wish I found you earlier! I always receive really impressive insights
+                and research from you. You helped me get through my Economics course
+                without any problems.”
+              </p>
+              <div class="flex">
+                <div class="rounded-full mr-4">
+                  <img src="@/assets/img/index-07.jpg" alt="" />
+                </div>
+                <p class="text-xl opacity-75">— Mark Johnson</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="m-auto w-3/4 bg-white py-8 px-20">
+              <p class="italic font-serif text-2xl mb-16">
+                “I thought I would never find a web-based company to help me out. Second
+                year is the most difficult one, but they did actually help me a lot to
+                improve my knowledge! I think I've learned from their research more than
+                from any textbook.”
+              </p>
+              <div class="flex">
+                <div class="rounded-full mr-4">
+                  <img src="@/assets/img/index-08.jpg" alt="" />
+                </div>
+                <p class="text-xl opacity-75">— Alan Smith</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="essay-section w-full pl-24 pt-16 text-white pb-10 mb-8">
+    <div class="w-full pl-24 pt-16 bg-dark-blue text-white pb-10 mb-8">
       <h3 class="text-5xl font-serif">Essay and dissertation help</h3>
       <p class="mt-8 text-lg opacity-50">
         Every day thousands of students approach us with the request to get professional
@@ -251,21 +305,49 @@
 </template>
 
 <script>
+import { Swiper, Autoplay, Pagination } from "swiper";
+import "swiper/scss";
 export default {
   name: "HomeView",
-  components: {},
+  components: { Swiper },
+  methods: {
+    scrollToWelcome() {
+      window.scrollTo({ top: "#welcome-tab", behavior: "smooth" });
+    },
+  },
+  mounted() {
+    Swiper.use(Autoplay, Pagination);
+    const swiper = new Swiper(".swiper", {
+      direction: "horizontal",
+      loop: true,
+      speed: 700,
+      modules: [Autoplay, Pagination],
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+        el: ".swiper-slide",
+      },
+      on: {
+        init() {
+          this.el.addEventListener("mouseenter", () => {
+            this.autoplay.stop();
+          });
+          this.el.addEventListener("mouseleave", () => {
+            this.autoplay.start();
+          });
+        },
+      },
+    });
+    swiper.autoplay.start();
+  },
 };
 </script>
 <style scoped>
 .main-pic {
   height: 520px;
 }
-.order-now {
-  background-color: #53a1fd;
-}
-.order-now:hover {
-  background-color: #b35032;
-}
+
 .read-more {
   background-color: #57bee6;
 }
@@ -289,17 +371,11 @@ ul li:before {
   position: absolute;
   left: 0;
 }
-.why-us:hover {
-  background-color: #b35032;
-  color: white;
-}
+
 .first-plus {
   color: #53a1fd;
 }
 .first-plus:hover {
   color: #b35032;
-}
-.essay-section {
-  background-color: #4494b3;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <nav class="pl-24 h-14 w-full">
+    <nav class="pl-24 h-14 w-full bg-blue-circle">
       <div class="flex h-14 pt-4">
         <div class="basis-4/6 flex">
           <img src="@/assets/img/logo.jpg" alt="Logo" />
@@ -18,8 +18,4 @@
 export default {};
 </script>
 
-<style>
-nav {
-  background-color: #67ccf2;
-}
-</style>
+<style></style>
