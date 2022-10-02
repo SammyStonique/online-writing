@@ -25,7 +25,7 @@
               <p class="mb-2 font-serif text-lg">Custom essay</p>
               <p class="mb-8 font-serif text-lg">Research paper</p>
               <button
-                class="rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
+                class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Order now
               </button>
@@ -47,7 +47,7 @@
               <p class="mb-2 font-serif text-lg">Lab report</p>
               <p class="mb-8 font-serif text-lg">Presentation</p>
               <button
-                class="rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
+                class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Order now
               </button>
@@ -69,7 +69,7 @@
               <p class="mb-2 font-serif text-lg">Coursework</p>
               <p class="mb-8 font-serif text-lg">Admission essay</p>
               <button
-                class="prices-btn rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
+                class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Order now
               </button>
@@ -91,7 +91,7 @@
               <p class="mb-2 font-serif text-lg">Scholarship essay</p>
               <p class="mb-8 font-serif text-lg">Proofreading</p>
               <button
-                class="rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white"
+                class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue w-40 py-2 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
               >
                 Order now
               </button>
@@ -123,7 +123,11 @@
           </ul>
         </div>
         <div class="basis-1/2">
-          <img src="@/assets/img/prices-01.jpg" alt="" />
+          <img
+            class="cursor-pointer hover:opacity-75"
+            src="@/assets/img/prices-01.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -158,7 +162,7 @@
       </div>
       <div class="m-auto w-1/2 text-center">
         <button
-          class="rounded-full bg-white text-light-blue text-lg font-bold w-60 py-2 px-2 hover:bg-brown hover:text-white"
+          class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue text-lg font-bold w-60 py-2 px-2 hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
         >
           Calculate order's price
         </button>

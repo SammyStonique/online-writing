@@ -1,7 +1,7 @@
 <template>
   <div class="services pt-12">
     <div class="flex pl-24 pr-20 mb-20">
-      <div class="basis-1/2">
+      <div class="basis-1/2 mr-4">
         <h1 class="text-5xl font-serif mb-8">Services overview</h1>
         <p class="text-lg mb-8">
           Our company is fully dedicated to providing you with the best service. Our aim
@@ -35,14 +35,22 @@
         </p>
       </div>
       <div class="basis-1/2">
-        <img src="@/assets/img/services-01.jpg" alt="" />
+        <img
+          class="cursor-pointer hover:opacity-75"
+          src="@/assets/img/services-01.jpg"
+          alt=""
+        />
       </div>
     </div>
     <div class="w-full bg-blue pt-12 pb-24 mb-12 pl-24 pr-20">
       <h3 class="text-5xl font-serif mb-8">Additional Services</h3>
       <div class="flex">
-        <div class="basis-1/2">
-          <img src="@/assets/img/services-02.jpg" alt="" />
+        <div class="basis-1/2 mr-4">
+          <img
+            class="cursor-pointer hover:opacity-75"
+            src="@/assets/img/services-02.jpg"
+            alt=""
+          />
         </div>
         <div class="basis-1/2 pt-6">
           <p class="text-lg font-serif mb-6">

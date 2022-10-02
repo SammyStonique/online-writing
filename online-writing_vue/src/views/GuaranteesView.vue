@@ -4,21 +4,33 @@
       <h3 class="text-5xl font-serif mb-10">Absolute authenticity & personalization</h3>
       <div class="flex">
         <div class="basis-1/3 mr-8">
-          <img class="mb-4" src="@/assets/img/guarantees-01.jpg" alt="" />
+          <img
+            class="mb-4 cursor-pointer hover:opacity-75"
+            src="@/assets/img/guarantees-01.jpg"
+            alt=""
+          />
           <p class="text-lg pr-4">
             All Essay Writing writers are obliged to produce only unique content essays as
             originality is the cornerstone of our writing service.
           </p>
         </div>
         <div class="basis-1/3 mr-8">
-          <img class="mb-4" src="@/assets/img/guarantees-02.jpg" alt="" />
+          <img
+            class="mb-4 cursor-pointer hover:opacity-75"
+            src="@/assets/img/guarantees-02.jpg"
+            alt=""
+          />
           <p class="text-lg pr-4">
             Additionally, all custom made papers are run through modern plagiarism
             detection software to ensure you against any copied information.
           </p>
         </div>
         <div class="basis-1/3">
-          <img class="mb-4" src="@/assets/img/guarantees-03.jpg" alt="" />
+          <img
+            class="mb-4 cursor-pointer hover:opacity-75"
+            src="@/assets/img/guarantees-03.jpg"
+            alt=""
+          />
           <p class="text-lg pr-4">
             We guarantee that custom papers from Essay Writing are 100% authentic and
             created with a view to meet all of the customer’s requirements.
@@ -117,7 +129,7 @@
             professionalism and our fine policy.
           </p>
           <button
-            class="rounded-full bg-white text-light-blue py-2 w-40 font-bold hover:bg-brown hover:text-white"
+            class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue py-2 w-40 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
           >
             Learn more
           </button>
@@ -129,7 +141,7 @@
             accordance with the requested style.
           </p>
           <button
-            class="guarantees-btn rounded-full bg-white text-light-blue py-2 w-40 font-bold hover:bg-brown hover:text-white"
+            class="transition ease-in-out delay-150 guarantees-btn rounded-full bg-white text-light-blue py-2 w-40 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
           >
             Learn more
           </button>
@@ -141,7 +153,7 @@
             is more, the papers aren’t stored in our databases for internal re-use.
           </p>
           <button
-            class="rounded-full bg-white text-light-blue py-2 w-40 font-bold hover:bg-brown hover:text-white"
+            class="transition ease-in-out delay-150 rounded-full bg-white text-light-blue py-2 w-40 font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
           >
             Learn more
           </button>

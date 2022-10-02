@@ -46,7 +46,7 @@
       </div>
       <div class="text-center m-auto w-1/2">
         <button
-          class="rounded-full w-44 py-2 text-xl bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
+          class="transition ease-in-out delay-150 rounded-full w-44 py-2 text-xl bg-white text-light-blue font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
         >
           Submit
         </button>

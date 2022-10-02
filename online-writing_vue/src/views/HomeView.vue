@@ -12,12 +12,12 @@
           </p>
           <div class="flex mb-10">
             <button
-              class="rounded-full w-48 text-white px-4 py-3 font-bold text-lg mr-8 bg-light-blue hover:bg-brown"
+              class="transition ease-in-out delay-150 rounded-full w-48 text-white px-4 py-3 font-bold text-lg mr-8 bg-light-blue hover:bg-brown hover:-translate-y-1 hover:scale-110 duration-300"
             >
               Order now
             </button>
             <button
-              class="rounded-full w-48 text-white px-4 py-3 font-bold text-lg bg-blue-circle hover:bg-brown"
+              class="transition ease-in-out delay-150 rounded-full w-48 text-white px-4 py-3 font-bold text-lg bg-blue-circle hover:bg-brown hover:-translate-y-1 hover:scale-110 duration-300"
             >
               Read More
             </button>
@@ -25,7 +25,7 @@
           <div class="w-3/4 text-right">
             <a href="#welcome-tab" role="tab" @click="scrollToWelcome">
               <i
-                class="fa fa-chevron-down scroll-link text-2xl hover:text-brown"
+                class="transition ease-in-out delay-150 fa fa-chevron-down scroll-link text-2xl hover:text-brown hover:-translate-y-1 hover:scale-110 duration-300"
                 aria-hidden="true"
               ></i>
             </a>
@@ -33,10 +33,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="flex mb-12 transition ease-in-out delay-150 duration-600"
-      id="welcome-tab"
-    >
+    <div class="flex mb-12 motion-safe:animate-fadeIn" id="welcome-tab">
       <div class="basis-1/2 pl-24">
         <p class="text-6xl font-serif opacity-75 mb-10">Welcome to our site!</p>
         <p class="text-xl">
@@ -64,96 +61,115 @@
       </div>
       <div class="basis-1/2 flex ml-8">
         <div class="basis-1/2">
-          <img class="object-cover" src="@/assets/img/index-01-02.jpg" alt="" />
+          <img
+            class="object-cover cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-01-02.jpg"
+            alt=""
+          />
         </div>
         <div class="basis-1/2">
-          <img class="mb-6" src="@/assets/img/index-02.jpg" alt="" />
-          <img src="@/assets/img/index-03.jpg" alt="" />
+          <img
+            class="mb-6 cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-02.jpg"
+            alt=""
+          />
+          <img
+            class="cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-03.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
-    <div class="pl-24 w-full bg-blue pt-16 pb-20 mb-12">
-      <h3 class="text-5xl font-serif mb-8">Why Choose Us?</h3>
-      <div class="grid grid-cols-4 gap-4">
-        <div class="text-center">
-          <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
-              <i
-                class="absolute top-10 left-10 fa fa-users text-white text-6xl"
-                aria-hidden="true"
-              ></i>
+    <div class="pl-24 w-full bg-blue pt-16 pb-20 mb-12 js-show-on-scroll">
+      <div class="">
+        <h3 class="text-5xl font-serif mb-8">Why Choose Us?</h3>
+        <div class="grid grid-cols-4 gap-4">
+          <div class="text-center">
+            <div class="m-auto w-3/4">
+              <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
+                <i
+                  class="absolute top-10 left-10 fa fa-users text-white text-6xl"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <p class="mb-8 font-serif text-center text-xl">
+                You'll get help from a writer with the qualification you're working
+                towards.
+              </p>
+              <button
+                class="transition ease-in-out delay-150 rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                Learn More
+              </button>
             </div>
-            <p class="mb-8 font-serif text-center text-xl">
-              You'll get help from a writer with the qualification you're working towards.
-            </p>
-            <button
-              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
-            >
-              Learn More
-            </button>
           </div>
-        </div>
-        <div class="text-center">
-          <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
-              <i
-                class="absolute top-10 left-11 fa fa-globe text-white text-6xl"
-                aria-hidden="true"
-              ></i>
+          <div class="text-center">
+            <div class="m-auto w-3/4">
+              <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
+                <i
+                  class="absolute top-10 left-11 fa fa-globe text-white text-6xl"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <p class="mb-8 font-serif text-center text-xl">
+                You'll be dealing with a real company offering a legitimate service.
+              </p>
+              <button
+                class="transition ease-in-out delay-150 rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                Learn More
+              </button>
             </div>
-            <p class="mb-8 font-serif text-center text-xl">
-              You'll be dealing with a real company offering a legitimate service.
-            </p>
-            <button
-              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
-            >
-              Learn More
-            </button>
           </div>
-        </div>
-        <div class="text-center">
-          <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
-              <i
-                class="absolute top-10 left-11 fa fa-graduation-cap text-white text-6xl"
-                aria-hidden="true"
-              ></i>
+          <div class="text-center">
+            <div class="m-auto w-3/4">
+              <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
+                <i
+                  class="absolute top-10 left-11 fa fa-graduation-cap text-white text-6xl"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <p class="mb-8 font-serif text-center text-xl">
+                Get help with your essay, dissertation, assignments or coursework today.
+              </p>
+              <button
+                class="transition ease-in-out delay-150 rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                Learn More
+              </button>
             </div>
-            <p class="mb-8 font-serif text-center text-xl">
-              Get help with your essay, dissertation, assignments or coursework today.
-            </p>
-            <button
-              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
-            >
-              Learn More
-            </button>
           </div>
-        </div>
-        <div class="text-center">
-          <div class="m-auto w-3/4">
-            <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
-              <i
-                class="absolute top-10 left-11 fa fa-phone text-white text-6xl"
-                aria-hidden="true"
-              ></i>
+          <div class="text-center">
+            <div class="m-auto w-3/4">
+              <div class="relative rounded-full h-36 w-36 bg-blue-circle mb-12 ml-8">
+                <i
+                  class="absolute top-10 left-11 fa fa-phone text-white text-6xl"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <p class="mb-8 font-serif text-center text-xl">
+                Our ethos is to provide the best possible customer service.
+              </p>
+              <button
+                class="transition ease-in-out delay-150 rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                Learn More
+              </button>
             </div>
-            <p class="mb-8 font-serif text-center text-xl">
-              Our ethos is to provide the best possible customer service.
-            </p>
-            <button
-              class="rounded-full w-40 py-2 bg-white text-light-blue font-bold hover:bg-brown hover:text-white"
-            >
-              Learn More
-            </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="pl-24 mb-12">
+    <div class="pl-24 mb-12 js-show-on-scroll">
       <h3 class="text-5xl font-serif mb-8">Professional help with any paper</h3>
       <div class="flex mb-12">
         <div class="basis-1/2">
-          <img src="@/assets/img/index-04.jpg" alt="" />
+          <img
+            class="cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-04.jpg"
+            alt=""
+          />
         </div>
         <div class="basis-1/2 pt-6">
           <p class="text-lg font-bold mb-6">
@@ -187,16 +203,20 @@
           </button>
         </div>
         <div class="basis-1/2">
-          <img src="@/assets/img/index-05.jpg" alt="" />
+          <img
+            class="cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-05.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>
-    <div class="pl-24 w-full bg-blue pt-16 pb-20">
+    <div class="pl-24 w-full bg-blue pt-16 pb-20 js-show-on-scroll">
       <h3 class="text-5xl font-serif mb-12">Testimonials</h3>
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <div class="m-auto w-3/4 bg-white py-8 px-20">
+            <div class="m-auto w-3/4 bg-white py-8 px-20 cursor-grabbing">
               <p class="italic font-serif text-2xl mb-16">
                 "Tried so many sites and always ended up with different grades for my
                 assignments. Sometimes I received fail for a work from the site, which
@@ -212,7 +232,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="m-auto w-3/4 bg-white py-8 px-20">
+            <div class="m-auto w-3/4 bg-white py-8 px-20 cursor-grabbing">
               <p class="italic font-serif text-2xl mb-16">
                 “There are so many websites out there and it's so confusing to choose one.
                 I wish I found you earlier! I always receive really impressive insights
@@ -228,7 +248,7 @@
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="m-auto w-3/4 bg-white py-8 px-20">
+            <div class="m-auto w-3/4 bg-white py-8 px-20 cursor-grabbing">
               <p class="italic font-serif text-2xl mb-16">
                 “I thought I would never find a web-based company to help me out. Second
                 year is the most difficult one, but they did actually help me a lot to
@@ -279,22 +299,34 @@
       <h3 class="text-5xl font-serif mb-8">Confidentiality is our priority</h3>
       <div class="flex">
         <div class="basis-1/3">
-          <img class="mb-4" src="@/assets/img/index-09.jpg" alt="" />
-          <p class="font-serif">
+          <img
+            class="mb-4 cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-09.jpg"
+            alt=""
+          />
+          <p class="font-serif opacity-75">
             We are dedicated to offering a high quality and affordable custom essay and
             dissertation writing service tailored to your individual requirements.
           </p>
         </div>
         <div class="basis-1/3">
-          <img class="mb-4" src="@/assets/img/index-10.jpg" alt="" />
-          <p class="font-serif pr-3">
+          <img
+            class="mb-4 cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-10.jpg"
+            alt=""
+          />
+          <p class="font-serif pr-3 opacity-75">
             Lots of students are afraid to buy essays, order online essay writing services
             or even ask for essay help as their actions can be revealed.
           </p>
         </div>
         <div class="basis-1/3">
-          <img class="mb-4" src="@/assets/img/index-11.jpg" alt="" />
-          <p class="font-serif">
+          <img
+            class="mb-4 cursor-pointer hover:opacity-75"
+            src="@/assets/img/index-11.jpg"
+            alt=""
+          />
+          <p class="font-serif opacity-75">
             Well, you can relax as we understand the importance of confidentiality in our
             business. Our cooperation will remain between us. Be sure of that.
           </p>
